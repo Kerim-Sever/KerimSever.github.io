@@ -9,9 +9,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-    <link rel='stylesheet' href="../css/syntax1.css" type='text/css'>
+    <link rel='stylesheet' href="css/syntax1.css" type='text/css'>
 
     <title>Home Page</title>
+
+    <div id="sidebar">
+        <div id="sidebar_image">
+            <img src="images/github.png" class="rounded float-right" height="300" width="350">
+        </div>
+    </div>
 
 </head>
 
@@ -72,71 +78,58 @@
     </nav>
 </header>
 
-
-<h1>My Goals</h1>
-
-<div id="sidebar">
-    <div id="sidebar_image">
-        <img src="../images/goals2.JPeG" class="rounded float-right" height="500" width="400"
-</div>
-
-
-
-<div class="row-3">
-    <div class="col-md-12"
-    <p class="lead">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et suscipit ex. Morbi pretium porttitor ex ac
-        dictum.
-        Curabitur malesuada mauris lorem, vel viverra urna egestas eget. Integer malesuada mollis erat ac porta. Nunc in
-        fringilla metus. Fusce eu semper quam. Aliquam libero risus, accumsan eget efficitur a, pretium eu nulla.
-        Vivamus
-        tincidunt, purus sit amet blandit pellentesque, sapien lorem dictum ligula, sed tincidunt tellus ante egestas
-        sapien. Mauris venenatis enim et sodales eleifend. Quisque mauris nibh, lacinia at metus id, tristique tristique
-        elit. Aliquam sit amet tellus eu mauris congue mattis ut vitae diam. Fusce convallis libero vitae euismod
-        viverra.
-        Vestibulum tortor quam, auctor nec ex non, scelerisque feugiat eros. Donec varius nisl vel mi egestas, id mollis
-        odio fringilla.
-    </p>
-</div>
-
 <div class="container">
     <!-- Example row of columns -->
     <div class="row">
-        <div class="col-md-8">
+        <div class="col-md-13">
+            <h1>Github</h1>
+            <p class="lead">
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam et suscipit ex. Morbi pretium porttitor ex ac dictum.
+    Curabitur malesuada mauris lorem, vel viverra urna egestas eget. Integer malesuada mollis erat ac porta. Nunc in
+    fringilla metus. Fusce eu semper quam. Aliquam libero risus, accumsan eget efficitur a, pretium eu nulla. Vivamus
+    tincidunt, purus sit amet blandit pellentesque, sapien lorem dictum ligula, sed tincidunt tellus ante egestas
+    sapien. Mauris venenatis enim et sodales eleifend. Quisque mauris nibh, lacinia at metus id, tristique tristique
+    elit. Aliquam sit amet tellus eu mauris congue mattis ut vitae diam. Fusce convallis libero vitae euismod viverra.
+    Vestibulum tortor quam, auctor nec ex non, scelerisque feugiat eros. Donec varius nisl vel mi egestas, id mollis
+    odio fringilla.
+</p>
+<div class="container">
+    <!-- Example row of columns -->
+    <div class="row">
+        <div class="col-md-10">
+            <h2>My Github Project</h2>
+        </div>
+        <div class="col-md-10">
+            <div id="article_body">
+                <p>
+                    Project 1 - Link To project:
+                    <a href="https://github.com/Kerim-Sever/MiniProject">Project1</a>
 
-            <h2>###</h2>
-            <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor
-                mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada
-                magna mollis euismod. Donec sed odio dui. </p>
-
-
+                </p>
+                <p>
+                    Project 2 - Portfolio Project:
+                    <a href="https://github.com/Kerim-Sever/MiniProject2">Project2</a>
+                </p>
+                <p>
+                    Project 3 - Marketing Portfolio:
+                    <a href="">In Progress</a>
+                <p/>
+            </div>
         </div>
     </div>
 </div>
 </body>
 </html>
-<div id='disqus_thread'></div>
 
-<script type='text/javascript'>
-    var disqus_shortname = '{{ site.disqus-id }}';
-    (function () {
-        var dsq = document.createElement('script');
-        dsq.type = 'text/javascript';
-        dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-
-<div class="row-1">
-    <div class="col-10">
-        <noscript><a href='http://disqus.com/?ref_noscript'></a></noscript>
-        <a href='http://disqus.com' class='dsq-brlink'>comments powered by<span class='logo-disqus'>Disqus</span></a>
-    </div>
+<div class="row-10">
+    <div class="col-md-8"
+    <noscript><a href='http://disqus.com/?ref_noscript'></a></noscript>
+    <a href='http://disqus.com' class='dsq-brlink'>comments powered by<span class='logo-disqus'>Disqus</span></a>
+</div>
 </div>
 
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -148,17 +141,9 @@
         crossorigin="anonymous"></script>
 </body>
 <footer class="container">
-    <div class="row-md-1">
-        <div class="col-md-10">
-            <div class="float-left">
-                <p>&copy; Kerim Sever,<a href="https://github.com/Kerim-Sever/MiniProject"> My Github,</a><a
-                        href="https://github.com/Kerim-Sever/MiniProject"> My Resume</a>
-                    <a href="https://www.linkedin.com/in/kerimsever/">, Linkedin</p>
-                </p>
-            </div>
-        </div>
-    </div>
-
+    <p>&copy; Kerim Sever,<a href="https://github.com/Kerim-Sever/MiniProject"> My Github,</a><a href="https://github.com/Kerim-Sever/MiniProject"> My Resume</a>
+        <a href="https://www.linkedin.com/in/kerimsever/">, Linkedin</p>
+    </p>
 
 </footer>
 </html>
